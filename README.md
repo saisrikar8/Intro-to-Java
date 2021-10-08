@@ -96,3 +96,17 @@ average = (double)total/n; //total cast to double to ensure real division is use
 
 *Note: Casting a floating-point number to an integer simply truncates the number (rounds down)*
 ___
+
+## Final Variables
+
+A *final variable* or *user-defined constant*, identified by the keyword `final`, is a quantity whose value will not change..
+___
+
+An example is shown below.
+
+```java
+final double TAX_RATE = 0.08;
+```
+___
+- Constant identifiers are, by convention, capitalized.
+- `final` variable can be declared without initializing immediately.
